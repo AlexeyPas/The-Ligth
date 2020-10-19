@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override var prefersStatusBarHidden: Bool{
         return true
     }
-    var isLightOn = true
+    var isLightOn = 0
     
     // MARK: -method
     
@@ -24,11 +24,21 @@ class ViewController: UIViewController {
   
     
     fileprivate func updateWindow() {
-        view.backgroundColor = isLightOn ? .white : .black
+        switch isLightOn {
+        case 1:
+            view.backgroundColor = .green
+        case 2:
+            view.backgroundColor = .yellow
+        case 3:
+            view.backgroundColor = .red
+        default:
+            view.backgroundColor = .white
+        }
+
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
-        isLightOn.toggle()
+        isLightOn = isLightOn < 3 ? isLightOn + 1 : 1
         updateWindow()
         
     }
