@@ -13,19 +13,25 @@ class ViewController: UIViewController {
         return true
     }
     var isLightOn = true
+    
+    // MARK: -method
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         updateWindow()
     }
 
+  
+    
     fileprivate func updateWindow() {
         view.backgroundColor = isLightOn ? .white : .black
     }
     
-    @IBAction func buttonPressed() {
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         isLightOn.toggle()
         updateWindow()
+        
     }
-    
+ 
 }
 
