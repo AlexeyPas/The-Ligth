@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		552D1DAF253DF8DB00A08D01 /* The Ligth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Ligth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		552D1DAF253DF8DB00A08D01 /* The Trafic Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Trafic Lights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		552D1DB2253DF8DB00A08D01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		552D1DB4253DF8DB00A08D01 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		552D1DB6253DF8DB00A08D01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		552D1DB0253DF8DB00A08D01 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				552D1DAF253DF8DB00A08D01 /* The Ligth.app */,
+				552D1DAF253DF8DB00A08D01 /* The Trafic Lights.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		552D1DAE253DF8DB00A08D01 /* The Ligth */ = {
+		552D1DAE253DF8DB00A08D01 /* The Trafic Lights */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 552D1DC3253DF8DC00A08D01 /* Build configuration list for PBXNativeTarget "The Ligth" */;
+			buildConfigurationList = 552D1DC3253DF8DC00A08D01 /* Build configuration list for PBXNativeTarget "The Trafic Lights" */;
 			buildPhases = (
 				552D1DAB253DF8DB00A08D01 /* Sources */,
 				552D1DAC253DF8DB00A08D01 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "The Ligth";
+			name = "The Trafic Lights";
 			productName = "The Ligth";
-			productReference = 552D1DAF253DF8DB00A08D01 /* The Ligth.app */;
+			productReference = 552D1DAF253DF8DB00A08D01 /* The Trafic Lights.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 552D1DAA253DF8DB00A08D01 /* Build configuration list for PBXProject "The Ligth" */;
+			buildConfigurationList = 552D1DAA253DF8DB00A08D01 /* Build configuration list for PBXProject "The Trafic Lights" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				552D1DAE253DF8DB00A08D01 /* The Ligth */,
+				552D1DAE253DF8DB00A08D01 /* The Trafic Lights */,
 			);
 		};
 /* End PBXProject section */
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		552D1DAA253DF8DB00A08D01 /* Build configuration list for PBXProject "The Ligth" */ = {
+		552D1DAA253DF8DB00A08D01 /* Build configuration list for PBXProject "The Trafic Lights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				552D1DC1253DF8DC00A08D01 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		552D1DC3253DF8DC00A08D01 /* Build configuration list for PBXNativeTarget "The Ligth" */ = {
+		552D1DC3253DF8DC00A08D01 /* Build configuration list for PBXNativeTarget "The Trafic Lights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				552D1DC4253DF8DC00A08D01 /* Debug */,
